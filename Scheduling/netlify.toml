@@ -1,0 +1,6 @@
+[functions]
+directory = "netlify/functions"
+node_bundler = "esbuild"
+external_node_modules = ["googleapis", "luxon"]
+included_files = ["lib/**"]
+node_version = "18"
